@@ -74,7 +74,9 @@ def mutant_ddg_value(variable1, variable2, choice):
     elif choice =="6":
         #sql = " SELECT ddg FROM ddg_info WHERE pdb_residual = " + variable2 + ""
         #sql = " SELECT ddg FROM ddg_info WHERE pdb_residual = 1"
-        sql = " SELECT ddg FROM ddg_info"          
+        sql = " SELECT ddg FROM ddg_info"
+    elif choice =="7":
+        sql = " SELECT * FROM ddg_info"          
 
     print (sql)
     c = cur.execute(sql) 
