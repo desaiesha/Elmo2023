@@ -16,7 +16,7 @@ def make_plot_avg():
     print("There are", len(pdb_df["gene_no"]),"rows")
     print("The max gene_no is", max(pdb_df["gene_no"]))
     ttl = "MuteinFold simple plot of a single pdb ddg"
-    fig, ax = plt.subplots(1, 1, figsize=(11, 6))
+    fig, ax = plt.subplots(1, 1, figsize=(9, 3))
     fig.suptitle(ttl)    
     colors = {'D':'tab:blue', 'E':'tab:orange', 'F':'tab:green', 'G':'tab:red', 'H':'tab:purple', 'I':'tab:brown', 'J':'tab:pink'}
     sns.scatterplot(x='gene_no', y='ddg', data=pdb_df, hue='mut_from')
