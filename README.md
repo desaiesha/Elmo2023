@@ -7,7 +7,7 @@ Storage of files:
 
 The database has three main folders: dataset, gene, pdb
 dataset = contains the list of genes in the database
-gene = contains infromation about the gene's identity and the pdb identifiers associated with that gene
+gene = contains information about the gene's identity and the pdb identifiers associated with that gene
 pdb = contains all the mutation data for each gene and mutant
 
 Make sure the gene/PDB data is saved in a PDB folder. 
